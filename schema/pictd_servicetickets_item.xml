@@ -1,0 +1,19 @@
+<schema adapter="tagabukidpictd">
+
+	<element tablename="pictd_servicetickets_item">
+
+		<field name="objid" "objid" primary="true" prefix="PSTI"/>
+		<field name="parentid" equired="true" indexed="true"/>
+		<field name="checkin_datetimedatetime" />
+		<field name="checkin_liaisonname" />
+		<field name="checkin_liaisonposition" />
+		<field name="checkout_datetimedatetime" />
+		<field name="checkout_liaisonname" />
+		<field name="checkout_liaisonposition" />
+		<field name="serialno" />
+		<field name="description" />
+
+		
+	</element>
+
+</schema>

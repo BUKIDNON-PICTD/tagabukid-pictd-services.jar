@@ -1,0 +1,14 @@
+<schema adapter="tagabukidpictd">
+
+	<element tablename="image_header">
+
+		<field name="objid" primary="true"/>
+		<field name="refid" required="true"/>
+		<field name="title" required="true"/>
+		<field name="filesize" />
+		<field name="extension" />
+
+		
+	</element>
+
+</schema>

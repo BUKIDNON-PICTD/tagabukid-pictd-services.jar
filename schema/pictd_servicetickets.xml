@@ -1,0 +1,34 @@
+<schema adapter="tagabukidpictd">
+
+	<element tablename="pictd_servicetickets">
+
+		<field name="objid" primary="true" prefix="PST"/>
+		<field name="state" required="true" searchable="true" indexed="true" />
+		<field name="ticketno" required="true" searchable="true" indexed="true"/>
+		<field name="employee_objid" required="true" searchable="true" indexed="true"/>
+		<field name="employee_lastname" required="true" searchable="true" indexed="true"/>
+		<field name="employee_firstname" required="true" searchable="true" indexed="true"/>
+		<field name="employee_middlename" searchable="true" indexed="true"/>
+		<field name="employee_fullname" required="true" searchable="true" indexed="true"/>
+		<field name="employee_org_objid " required="true" searchable="true" indexed="true"/>
+		<field name="employee_org_name " required="true" searchable="true" indexed="true"/>
+		<field name="employee_org_code " required="true" searchable="true" indexed="true"/>
+		<field name="servicetype_objid " required="true" searchable="true" indexed="true"/>
+		<field name="particulars" required="true" indexed="true"/>
+		<field name="priority" required="true" indexed="true"/>
+		<field name="datetimefileddatetime" />
+		<field name="datetimeaccepteddatetime" />
+		<field name="datetimeresolveddatetime"  />
+		<field name="diagnosis" required="true" indexed="true"/>
+		<field name="resolution" required="true" indexed="true"/>
+		<field name="recordlog_createdbyuserid" />
+		<field name="recordlog_createdbyusername " />
+		<field name="recordlog_datecreateddatetime " />
+		<field name="recordlog_updatedbyuserid" />
+		<field name="recordlog_updatedbyusername" />
+		<field name="recordlog_dateupdatedatetime" />
+
+		
+	</element>
+
+</schema>

@@ -1,0 +1,13 @@
+<schema adapter="tagabukidpictd">
+
+	<element tablename="image_chunk">
+		
+		<field name="objid" primary="true"/>
+		<field name="parentid" required="true"/>
+		<field name="fileno" required="true"/>
+		<field name="byteblob" required="true"/>
+
+		
+	</element>
+
+</schema>
