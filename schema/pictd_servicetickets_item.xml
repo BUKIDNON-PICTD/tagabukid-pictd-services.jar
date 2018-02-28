@@ -1,4 +1,4 @@
-<schema adapter="tagabukidpictd">
+<schema adapter="tagabukid_pictd">
 
 	<element tablename="pictd_servicetickets_item">
 
