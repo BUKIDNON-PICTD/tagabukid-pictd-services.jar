@@ -1,4 +1,4 @@
-<schema adapter="tagabukidpictd">
+<schema adapter="pictd_service">
 
 	<element tablename="pictd_master_servicetypes">
 		<field name="objid" primary="true" prefix="PMS" />
