@@ -1,9 +1,9 @@
 <schema adapter="tagabukid_pictd">
 	<element tablename="pictd_master_servicetypes">
 		<field name="objid" primary="true" prefix="PMS" />
-		<field name="name" required="true" searchable="true" indexed="true"/>
-		<field name="code" required="false" searchable="true" indexed="true"/>
-		<field name="description" required="false" searchable="true" indexed="true"/>
+		<field name="name" caption="Name" required="true" searchable="true" indexed="true"/>
+		<field name="code" caption="Code" required="false" searchable="true" indexed="true"/>
+		<field name="description" caption="Description" required="false" searchable="true" indexed="true"/>
 	</element>
 
 </schema>
